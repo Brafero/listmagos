@@ -1,214 +1,226 @@
 {
   "magos": [
     {
-      "nome": "Gandalf, o Cinzento",
-      "idade": 2000,
-      "nivelMagico": 15,
-      "inteligencia": 18.5,
-      "mana": 250.0,
-      "afinidadeFogo": 4,
-      "afinidadeAgua": 2,
-      "afinidadeTerra": 3,
-      "afinidadeAr": 7,
-      "feitico1": "Luz Ofuscante",
-      "feitico2": "Escudo Arcano",
-      "feitico3": "Chama de Anor"
+      "nome": "Elara Tempestade",
+      "idade": 142,
+      "feiticos": [
+        {
+          "nome": "Raio Celeste",
+          "descricao": "Invoca um poderoso raio que desce dos céus, causando dano elétrico devastador",
+          "elemento": "ar"
+        },
+        {
+          "nome": "Ventania Cortante",
+          "descricao": "Cria lâminas de vento afiadas que cortam tudo em seu caminho",
+          "elemento": "ar"
+        },
+        {
+          "nome": "Tempestade Furiosa",
+          "descricao": "Conjura uma tempestade localizada com ventos violentos e raios",
+          "elemento": "ar"
+        }
+      ]
     },
     {
-      "nome": "Merlin",
-      "idade": 832,
-      "nivelMagico": 20,
-      "inteligencia": 20.0,
-      "mana": 300.0,
-      "afinidadeFogo": 3,
-      "afinidadeAgua": 5,
-      "afinidadeTerra": 6,
-      "afinidadeAr": 4,
-      "feitico1": "Metamorfose",
-      "feitico2": "Visão do Futuro",
-      "feitico3": "Controle do Clima"
+      "nome": "Thorin Forjaferro",
+      "idade": 89,
+      "feiticos": [
+        {
+          "nome": "Bola de Fogo",
+          "descricao": "Lança uma esfera flamejante que explode ao impacto",
+          "elemento": "fogo"
+        },
+        {
+          "nome": "Escudo de Chamas",
+          "descricao": "Cria uma barreira de fogo que protege e queima inimigos próximos",
+          "elemento": "fogo"
+        }
+      ]
     },
     {
-      "nome": "Alatar, o Azul",
-      "idade": 1500,
-      "nivelMagico": 12,
-      "inteligencia": 17.0,
-      "mana": 220.0,
-      "afinidadeFogo": 1,
-      "afinidadeAgua": 8,
-      "afinidadeTerra": 2,
-      "afinidadeAr": 5,
-      "feitico1": "Torrente Congelante",
-      "feitico2": "Muralha de Gelo",
-      "feitico3": "Telepatia"
+      "nome": "Aqua Mareluna",
+      "idade": 67,
+      "feiticos": [
+        {
+          "nome": "Tsunami Místico",
+          "descricao": "Convoca uma onda gigante de água mágica que varre tudo à frente",
+          "elemento": "água"
+        },
+        {
+          "nome": "Cura das Águas",
+          "descricao": "Usa a essência da água para curar ferimentos e restaurar energia vital",
+          "elemento": "água"
+        },
+        {
+          "nome": "Prisão de Gelo",
+          "descricao": "Congela o inimigo em um bloco de gelo sólido, imobilizando-o",
+          "elemento": "água"
+        }
+      ]
     },
     {
-      "nome": "Morgana",
-      "idade": 543,
-      "nivelMagico": 18,
-      "inteligencia": 19.5,
-      "mana": 280.0,
-      "afinidadeFogo": 6,
-      "afinidadeAgua": 3,
-      "afinidadeTerra": 2,
-      "afinidadeAr": 2,
-      "feitico1": "Controle Mental",
-      "feitico2": "Fogo das Sombras",
-      "feitico3": "Ilusão"
+      "nome": "Gaia Pedraverde",
+      "idade": 156,
+      "feiticos": [
+        {
+          "nome": "Terremoto",
+          "descricao": "Faz a terra tremer violentamente, criando fissuras e derrubando estruturas",
+          "elemento": "terra"
+        },
+        {
+          "nome": "Muralha de Pedra",
+          "descricao": "Ergue uma parede sólida de rocha do solo para proteção ou bloqueio",
+          "elemento": "terra"
+        }
+      ]
     },
     {
-      "nome": "Dumbledore",
-      "idade": 150,
-      "nivelMagico": 17,
-      "inteligencia": 19.0,
-      "mana": 270.0,
-      "afinidadeFogo": 5,
-      "afinidadeAgua": 4,
-      "afinidadeTerra": 3,
-      "afinidadeAr": 6,
-      "feitico1": "Patrono",
-      "feitico2": "Leglimência",
-      "feitico3": "Feitiço Fidelius"
+      "nome": "Zephyr Sombraluna",
+      "idade": 203,
+      "feiticos": [
+        {
+          "nome": "Manto das Trevas",
+          "descricao": "Envolve o conjurador em sombras, tornando-o quase invisível",
+          "elemento": "trevas"
+        },
+        {
+          "nome": "Drenar Energia",
+          "descricao": "Absorve a força vital do inimigo, enfraquecendo-o e fortalecendo o conjurador",
+          "elemento": "trevas"
+        },
+        {
+          "nome": "Portal Sombrio",
+          "descricao": "Abre um portal através das dimensões sombrias para teletransporte",
+          "elemento": "trevas"
+        }
+      ]
     },
     {
-      "nome": "Elminster",
-      "idade": 1275,
-      "nivelMagico": 19,
-      "inteligencia": 19.8,
-      "mana": 290.0,
-      "afinidadeFogo": 7,
-      "afinidadeAgua": 3,
-      "afinidadeTerra": 4,
-      "afinidadeAr": 5,
-      "feitico1": "Palavra de Poder",
-      "feitico2": "Portal Dimensional",
-      "feitico3": "Chuva de Meteoros"
+      "nome": "Aurora Luzverde",
+      "idade": 94,
+      "feiticos": [
+        {
+          "nome": "Raio Purificador",
+          "descricao": "Dispara um feixe de luz divina que causa dano extra a criaturas sombrias",
+          "elemento": "luz"
+        },
+        {
+          "nome": "Bênção Luminosa",
+          "descricao": "Concede proteção divina e aumenta a resistência mágica dos aliados",
+          "elemento": "luz"
+        }
+      ]
     },
     {
-      "nome": "Raistlin Majere",
-      "idade": 34,
-      "nivelMagico": 16,
-      "inteligencia": 18.0,
-      "mana": 200.0,
-      "afinidadeFogo": 8,
-      "afinidadeAgua": 2,
-      "afinidadeTerra": 1,
-      "afinidadeAr": 3,
-      "feitico1": "Sono",
-      "feitico2": "Bola de Fogo",
-      "feitico3": "Pele de Dragão"
+      "nome": "Glacius Ventolâmina",
+      "idade": 178,
+      "feiticos": [
+        {
+          "nome": "Nevasca Eterna",
+          "descricao": "Conjura uma tempestade de neve e gelo que reduz drasticamente a visibilidade",
+          "elemento": "gelo"
+        },
+        {
+          "nome": "Lança de Cristal",
+          "descricao": "Forma uma lança de gelo puro que perfura armaduras com facilidade",
+          "elemento": "gelo"
+        },
+        {
+          "nome": "Campo Congelante",
+          "descricao": "Transforma o terreno em uma superficie escorregadia de gelo",
+          "elemento": "gelo"
+        }
+      ]
     },
     {
-      "nome": "Medivh",
-      "idade": 403,
-      "nivelMagico": 19,
-      "inteligencia": 19.7,
-      "mana": 285.0,
-      "afinidadeFogo": 5,
-      "afinidadeAgua": 5,
-      "afinidadeTerra": 5,
-      "afinidadeAr": 5,
-      "feitico1": "Abrir Portal",
-      "feitico2": "Visão Remota",
-      "feitico3": "Transformação Corvo"
+      "nome": "Verdania Folhaverde",
+      "idade": 112,
+      "feiticos": [
+        {
+          "nome": "Crescimento Selvagem",
+          "descricao": "Acelera o crescimento de plantas, criando uma barreira de vegetação densa",
+          "elemento": "natureza"
+        },
+        {
+          "nome": "Chuva de Espinhos",
+          "descricao": "Invoca espinhos venenosos que caem do céu como uma chuva mortal",
+          "elemento": "natureza"
+        }
+      ]
     },
     {
-      "nome": "Circe",
-      "idade": 950,
-      "nivelMagico": 16,
-      "inteligencia": 18.2,
-      "mana": 240.0,
-      "afinidadeFogo": 2,
-      "afinidadeAgua": 6,
-      "afinidadeTerra": 7,
-      "afinidadeAr": 1,
-      "feitico1": "Transformar em Animal",
-      "feitico2": "Poção de Amor",
-      "feitico3": "Crescimento Vegetal"
+      "nome": "Mortis Ossoseco",
+      "idade": 245,
+      "feiticos": [
+        {
+          "nome": "Toque da Morte",
+          "descricao": "Drena a vida do alvo através do toque, causando necrose instantânea",
+          "elemento": "necromancia"
+        },
+        {
+          "nome": "Exército de Mortos",
+          "descricao": "Ressuscita esqueletos do solo para lutar ao lado do conjurador",
+          "elemento": "necromancia"
+        },
+        {
+          "nome": "Aura Pestilenta",
+          "descricao": "Emana uma aura tóxica que envenena e enfraquece inimigos próximos",
+          "elemento": "necromancia"
+        }
+      ]
     },
     {
-      "nome": "Luna Estrela",
-      "idade": 27,
-      "nivelMagico": 8,
-      "inteligencia": 15.5,
-      "mana": 180.0,
-      "afinidadeFogo": 1,
-      "afinidadeAgua": 3,
-      "afinidadeTerra": 2,
-      "afinidadeAr": 9,
-      "feitico1": "Levitação",
-      "feitico2": "Sussurro do Vento",
-      "feitico3": "Salto Aéreo"
+      "nome": "Stellaris Cósmico",
+      "idade": 189,
+      "feiticos": [
+        {
+          "nome": "Chuva de Meteoros",
+          "descricao": "Convoca pequenos meteoros que caem em área, causando dano massivo",
+          "elemento": "cósmico"
+        },
+        {
+          "nome": "Portal Estelar",
+          "descricao": "Abre um portal dimensional conectando dois pontos distantes no espaço",
+          "elemento": "cósmico"
+        }
+      ]
     },
     {
-      "nome": "Magnus Bane",
-      "idade": 412,
-      "nivelMagico": 14,
-      "inteligencia": 17.3,
-      "mana": 230.0,
-      "afinidadeFogo": 6,
-      "afinidadeAgua": 2,
-      "afinidadeTerra": 1,
-      "afinidadeAr": 4,
-      "feitico1": "Portal Dimensional",
-      "feitico2": "Glamour",
-      "feitico3": "Fogo Demoníaco"
+      "nome": "Tempus Cronolâmina",
+      "idade": 301,
+      "feiticos": [
+        {
+          "nome": "Distorção Temporal",
+          "descricao": "Altera o fluxo do tempo, deixando inimigos mais lentos ou aliados mais rápidos",
+          "elemento": "tempo"
+        },
+        {
+          "nome": "Reverter Ferimentos",
+          "descricao": "Reverte o tempo no corpo do alvo, curando ferimentos recentes",
+          "elemento": "tempo"
+        },
+        {
+          "nome": "Congelar Momento",
+          "descricao": "Para completamente o tempo em uma pequena área por alguns segundos",
+          "elemento": "tempo"
+        }
+      ]
     },
     {
-      "nome": "Tasha",
-      "idade": 340,
-      "nivelMagico": 15,
-      "inteligencia": 18.7,
-      "mana": 245.0,
-      "afinidadeFogo": 3,
-      "afinidadeAgua": 3,
-      "afinidadeTerra": 8,
-      "afinidadeAr": 2,
-      "feitico1": "Risada Hedionda",
-      "feitico2": "Recipiente Arcano",
-      "feitico3": "Convocação Demoníaca"
-    },
-    {
-      "nome": "Khadgar",
-      "idade": 68,
-      "nivelMagico": 13,
-      "inteligencia": 16.8,
-      "mana": 210.0,
-      "afinidadeFogo": 4,
-      "afinidadeAgua": 4,
-      "afinidadeTerra": 3,
-      "afinidadeAr": 4,
-      "feitico1": "Polimorfar",
-      "feitico2": "Mísseis Arcanos",
-      "feitico3": "Contrafeitiço"
-    },
-    {
-      "nome": "Jaina Proudmoore",
-      "idade": 39,
-      "nivelMagico": 12,
-      "inteligencia": 16.5,
-      "mana": 205.0,
-      "afinidadeFogo": 2,
-      "afinidadeAgua": 9,
-      "afinidadeTerra": 1,
-      "afinidadeAr": 3,
-      "feitico1": "Cone de Gelo",
-      "feitico2": "Blizzard",
-      "feitico3": "Barreira de Gelo"
-    },
-    {
-      "nome": "Taako",
-      "idade": 125,
-      "nivelMagico": 11,
-      "inteligencia": 16.0,
-      "mana": 190.0,
-      "afinidadeFogo": 3,
-      "afinidadeAgua": 1,
-      "afinidadeTerra": 2,
-      "afinidadeAr": 8,
-      "feitico1": "Mãos Mágicas",
-      "feitico2": "Disfarce Ilusório",
-      "feitico3": "Lufada Trovejante"
+      "nome": "Mentis Psicorraio",
+      "idade": 76,
+      "feiticos": [
+        {
+          "nome": "Explosão Mental",
+          "descricao": "Causa dor psíquica intensa que pode deixar o alvo inconsciente",
+          "elemento": "psíquico"
+        },
+        {
+          "nome": "Ler Pensamentos",
+          "descricao": "Permite acessar e interpretar os pensamentos superficiais do alvo",
+          "elemento": "psíquico"
+        }
+      ]
     }
   ]
 }

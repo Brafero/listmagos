@@ -29,7 +29,7 @@ class _MagoListScreenState extends State<MagoListScreen> {
   @override
   void initState() {
     super.initState();
-    _futureMagos = MagoData.carregarMagos();
+    _futureMagos = MagoData.carregarMagos(); // assume que retorna List<Mago>
   }
 
   @override
@@ -55,15 +55,8 @@ class _MagoListScreenState extends State<MagoListScreen> {
               return Card(
                 child: ListTile(
                   title: Text(mago.nome),
-                  subtitle: Text('Mana: ${mago.mana} | Nível: ${mago.nivelMagico}'),
-                  trailing: Column(
-                    crossAxisAlignment: CrossAxisAlignment.end,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text('Int: ${mago.inteligencia}'),
-                      Text('Idade: ${mago.idade}'),
-                    ],
-                  ),
+                  subtitle: Text('Feitiços: ${mago.feiticos.length}'),
+                  trailing: Text('Idade: ${mago.idade}'),
                   onTap: () {
                     showDialog(
                       context: context,
@@ -71,11 +64,18 @@ class _MagoListScreenState extends State<MagoListScreen> {
                         title: Text(mago.nome),
                         content: Column(
                           mainAxisSize: MainAxisSize.min,
+                          crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text('Feitiços:'),
-                            Text('- ${mago.feitico1}'),
-                            Text('- ${mago.feitico2}'),
-                            Text('- ${mago.feitico3}'),
+                            const Text('Feitiços:'),
+                            ...mago.feiticos.map(
+                              (f) => ListTile(
+                                title: Text(f.nome),
+                                subtitle: Text(f.descricao),
+                                trailing: Text(f.elemento),
+                                dense: true,
+                                visualDensity: VisualDensity.compact,
+                              ),
+                            ),
                           ],
                         ),
                         actions: [
